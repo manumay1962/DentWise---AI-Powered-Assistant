@@ -23,7 +23,7 @@ function Hero() {
                     AI-Powered Dental Assistant
                   </span>
                 </div>
-                <h1 className="text--5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
                   <span className="bg-gradient-to-br from-foreground via-foreground to-foreground/70 bg-clip-text text-transparent">
                     Your dental
                   </span>
@@ -116,7 +116,7 @@ function Hero() {
             <div className="relative lg:pl-8">
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-br from-primary/20 to-primary/10 rounded-2xl rotate-45 blur-xl"></div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-gradient-to-br from-primary/15 to-primary/5 rounded-full blur-2xl"></div>
-              <Image src={"/hero.png"} alt="DentWise AI" className=" h-auto pb-20 " width={500} height={500} />
+              <Image src={"/hero.png"} alt="DentWise AI" className=" h-auto pb-20 ml-10 " width={500} height={500} />
 
             </div>
           </div>
